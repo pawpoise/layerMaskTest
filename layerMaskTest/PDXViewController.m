@@ -7,6 +7,7 @@
 //
 
 #import "PDXViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface PDXViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.maskedContainer.layer.mask = self.maskView.layer;
+    
+    CABasicAnimation *basic = [CABasicAnimation animationWithKeyPath:@"position"];
+    basic.autoreverses = YES;
+    basic.repeatCount = MAXFLOAT;
+    basic.toValue = [NSValue valueWithCGPoint:CGPointMake(self.animatingView.layer.position.x, 0)];
+    basic.duration = 5;
+    [self.animatingView.layer addAnimation:basic forKey:@"color"];
+
 }
 
 - (void)didReceiveMemoryWarning

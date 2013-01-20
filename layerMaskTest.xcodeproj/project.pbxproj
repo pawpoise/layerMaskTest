@@ -19,6 +19,9 @@
 		6D16B9F016A9FB6100BBF313 /* PDXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D16B9EF16A9FB6100BBF313 /* PDXViewController.m */; };
 		6D16B9F316A9FB6100BBF313 /* PDXViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D16B9F116A9FB6100BBF313 /* PDXViewController_iPhone.xib */; };
 		6D16B9F616A9FB6100BBF313 /* PDXViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D16B9F416A9FB6100BBF313 /* PDXViewController_iPad.xib */; };
+		6D16B9FD16A9FB6E00BBF313 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D16B9FC16A9FB6E00BBF313 /* QuartzCore.framework */; };
+		6D16B9FF16A9FC2400BBF313 /* partOfTheSun.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D16B9FE16A9FC2400BBF313 /* partOfTheSun.png */; };
+		6D16BA0116A9FF7F00BBF313 /* testMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D16BA0016A9FF7F00BBF313 /* testMenu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		6D16B9EF16A9FB6100BBF313 /* PDXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDXViewController.m; sourceTree = "<group>"; };
 		6D16B9F216A9FB6100BBF313 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PDXViewController_iPhone.xib; sourceTree = "<group>"; };
 		6D16B9F516A9FB6100BBF313 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PDXViewController_iPad.xib; sourceTree = "<group>"; };
+		6D16B9FC16A9FB6E00BBF313 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6D16B9FE16A9FC2400BBF313 /* partOfTheSun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = partOfTheSun.png; path = ../../../Pictures/partOfTheSun.png; sourceTree = "<group>"; };
+		6D16BA0016A9FF7F00BBF313 /* testMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = testMenu.png; path = ../../../Pictures/testMenu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D16B9FD16A9FB6E00BBF313 /* QuartzCore.framework in Frameworks */,
 				6D16B9D716A9FB6100BBF313 /* UIKit.framework in Frameworks */,
 				6D16B9D916A9FB6100BBF313 /* Foundation.framework in Frameworks */,
 				6D16B9DB16A9FB6100BBF313 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +82,7 @@
 		6D16B9D516A9FB6100BBF313 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D16B9FC16A9FB6E00BBF313 /* QuartzCore.framework */,
 				6D16B9D616A9FB6100BBF313 /* UIKit.framework */,
 				6D16B9D816A9FB6100BBF313 /* Foundation.framework */,
 				6D16B9DA16A9FB6100BBF313 /* CoreGraphics.framework */,
@@ -99,6 +107,8 @@
 		6D16B9DD16A9FB6100BBF313 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6D16B9FE16A9FC2400BBF313 /* partOfTheSun.png */,
+				6D16BA0016A9FF7F00BBF313 /* testMenu.png */,
 				6D16B9DE16A9FB6100BBF313 /* layerMaskTest-Info.plist */,
 				6D16B9DF16A9FB6100BBF313 /* InfoPlist.strings */,
 				6D16B9E216A9FB6100BBF313 /* main.m */,
@@ -168,6 +178,8 @@
 				6D16B9ED16A9FB6100BBF313 /* Default-568h@2x.png in Resources */,
 				6D16B9F316A9FB6100BBF313 /* PDXViewController_iPhone.xib in Resources */,
 				6D16B9F616A9FB6100BBF313 /* PDXViewController_iPad.xib in Resources */,
+				6D16B9FF16A9FC2400BBF313 /* partOfTheSun.png in Resources */,
+				6D16BA0116A9FF7F00BBF313 /* testMenu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
